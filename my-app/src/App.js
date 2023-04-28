@@ -30,7 +30,9 @@ function App() {
   
   return (
     <div className="container">
+      <div className='headName'>
       <h1>To Do App</h1>
+      </div>
       <input
       className='textbox'
           onKeyDown={tryToCheckForEnterKey}
@@ -44,9 +46,9 @@ function App() {
       <div className='box'>
       <ul>
         {todos.map((item, index) => {
-        return <div key={item.id}>
+        return <div className='containerD' key={item.id}>
         <li>{item.todo}</li>
-        <button onClick= {() => deleteItem(item.id)}> Delete</button>
+        <button className='button-2' onClick= {() => deleteItem(item.id)}> Delete</button>
         </div>
          }) }
       </ul>
