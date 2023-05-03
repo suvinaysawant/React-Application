@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './images/Todo.jpg';
 import './App.css';
 import { useState,useEffect } from 'react';
 
@@ -30,8 +30,10 @@ function App() {
   
   return (
     <div className="container">
+      
+      <h1>To Do<br></br> App</h1>
       <div className='headName'>
-      <h1>To Do App</h1>
+      {/* <h1>To Do App</h1> */}
       </div>
       <input
       className='textbox'

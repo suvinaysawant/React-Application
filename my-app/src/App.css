@@ -7,11 +7,6 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
@@ -42,6 +37,9 @@
   src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
 }
 
+
+
+
 h1 {
   font-family: 'Rocher';
   text-align: center;
@@ -51,28 +49,32 @@ h1 {
   flex-direction: column;
   align-items: center;
   justify-content: center;*/
- 
-}
+} 
 
 .container{
   display: flex;
   flex-direction: column;
- 
+  flex-basis: auto;
+  
 }
-
 
 
 .textbox{
- padding: 0.5cm;
-  margin: 20%;
+ padding: 50px;
+  margin: 35%;
   margin-top: 1cm;
   margin-bottom: 0.5cm;
+  border-radius: 25px;
+  box-shadow: 10px 10px 15px rgba(0,0,0,0.35);
+  color:#b3b8cd;
+ font-style: normal;
+
 }
 .button{
-  
+
   padding: 0.5cm;
-  margin-right: 20%;
-  margin-left: 20%;
+  margin: 750px;
+  margin-bottom: 0%;
   margin-top: 0.75cm;
   
 }
@@ -97,7 +99,7 @@ h1 {
   display: flex;
   flex-basis: auto;
   justify-content: space-between;
-  margin-top: 2%;
+  margin-top: 0;
 }
 
 
